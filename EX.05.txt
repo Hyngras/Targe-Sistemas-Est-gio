@@ -1,0 +1,24 @@
+Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. 
+Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. 
+Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, 
+usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?  
+___________________________________________________________________________________________________________________________________
+
+Seguiria o principio da resistência elétrica e à conversão de energia. Assim, quando a lâmpada é acesa parte da 
+energia é dissipada como calor, fazendo com que a lâmpada aqueça.
+
+Metodologia:
+
+1. Nomearia os interruptorres: UM, DOIS e TRÊS como, I1, I2, I3, respectivamente.
+2. Ligaria o primeiro interruptor (I1), deixando ligado por 5 minutos. (Sem cronômetro, contariamos de 01 a 60, 5 vezes seguidas)
+3. Após 5 minutos, desligaria I1 e ligaria I2.
+4. Ida até uma das salas das lâmpadas para observar:
+    4.1 Se a lâmpada 1 (que estava conectada ao I1): Estiver desligada, mas quente. Isso indica que foi ligada, logo, controla o I1.
+5. Ida até uma das salas das lâmpadas para observar:  
+    5.1 Se a lâmpada 2 (que está conectada ao I2): Estiver ligada. Isso indica que controla o I2.
+
+Assim:
+- I1: controla a lâmpada que está desligada e quente.
+- I2: controla a lâmpada que está ligada.
+- I3: controla a lâmpada que está desligada e fria.
+

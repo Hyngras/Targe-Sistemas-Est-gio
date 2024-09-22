@@ -1,0 +1,31 @@
+ # Observe o trecho de código abaixo: 
+ # int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA); 
+ # Ao final do processamento, qual será o valor da variável SOMA? 
+_________________________________________________________________________________________________________________________________
+
+int INDICE = 12, SOMA = 0, K = 1;
+
+enquanto K < INDICE faça {
+    K = K + 1;
+    SOMA = SOMA + K;
+}
+
+imprimir(SOMA);
+
+_________________________________________________________________________________________________________________________________
+
+Resolução
+
+Na 1ª iteração: K = 1 + 1 = 2, SOMA = 0 + 2 = 2
+Na 2ª iteração: K = 2 + 1 = 3, SOMA = 2 + 3 = 5
+Na 3ª iteração: K = 3 + 1 = 4, SOMA = 5 + 4 = 9
+Na 4ª iteração: K = 4 + 1 = 5, SOMA = 9 + 5 = 14
+Na 5ª iteração: K = 5 + 1 = 6, SOMA = 14 + 6 = 20
+Na 6ª iteração: K = 6 + 1 = 7, SOMA = 20 + 7 = 27
+Na 7ª iteração: K = 7 + 1 = 8, SOMA = 27 + 8 = 35
+Na 8ª iteração: K = 8 + 1 = 9, SOMA = 35 + 9 = 44
+Na 9ª iteração: K = 9 + 1 = 10, SOMA = 44 + 10 = 54
+Na 10ª iteração: K = 10 + 1 = 11, SOMA = 54 + 11 = 65
+Na 11ª iteração: K = 11 + 1 = 12, SOMA = 65 + 12 = 77
+
+Ao final do processamento, o valor da variável SOMA será 77.
